@@ -5,7 +5,7 @@ const AboutSection = () => {
     return(
         <Background>
             <WelcomeStyled>
-                <h2>About First Assembly of God</h2>
+                <h2>ABOUT FIRST ASSEMBLY OF GOD</h2>
                 <div className="line"></div>
             </WelcomeStyled>
             <AboutSectionStyled>
@@ -39,7 +39,7 @@ const WelcomeStyled = styled.div`
 
         h2{
             font-family:'Asap', sans-serif;
-            padding: 5rem 19rem;
+            padding: 5rem 15rem;
             color: Black;
             font-size: 2.5rem;
         }
@@ -52,7 +52,8 @@ const AboutSectionStyled = styled.div`
     p{
         padding-bottom: 1.5rem;
         padding-top: 1.5rem;
-        color: black;
+        font-weight: lighter;
+        color: #5a5a5a;
     }
 `;
 export default AboutSection;

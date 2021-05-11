@@ -7,6 +7,7 @@ import Nav from './components/Nav';
 //Pages
 import Home from './pages/Home';
 import About from './pages/About';
+import Give from './pages/Give';
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
         </Route>
         <Route path="/about">
           <About/>
+        </Route>
+        <Route path="/give">
+          <Give />
         </Route>
       </Switch>
     </div>

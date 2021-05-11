@@ -50,6 +50,7 @@ const Description = styled.div`
     p{
         padding-bottom: 1.5rem;
         padding-top: 1.5rem;
+        color:#e6e1e1;
     }
 `;
 

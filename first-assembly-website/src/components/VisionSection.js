@@ -14,11 +14,11 @@ const VisionSection = () => {
 //Style
 
 const VisionSectionStyled = styled.div`
-    padding: 5rem 10rem;
-    padding-bottom: 0rem;
-    padding-top: 0rem;
+    padding: 2rem 10rem;
     background: white;
     height: 50vh;
+    width:100%;
+    overflow: hidden;
     .line{
         height: 0.5rem;
         background: #1FA3CD;
@@ -31,7 +31,8 @@ const VisionSectionStyled = styled.div`
 
         h2{
             font-family:'Asap', sans-serif;
-            padding: 2rem 26rem;
+            font-weight: lighter;
+            padding: 1rem 26rem;
             text-align: center;
             padding-bottom: 2rem;
             color: black;
@@ -41,8 +42,12 @@ const VisionSectionStyled = styled.div`
         p{
             text-align: center;
             font-weight: light;
+            color: #5a5a5a;
             font-size: 1.5rem;
+            font-weight: lighter;
             overflow: hidden;
+            margin-left: 8rem;
+            margin-right: 8rem;
             padding-bottom: .5rem;
             padding-top: 0.5rem;
         }

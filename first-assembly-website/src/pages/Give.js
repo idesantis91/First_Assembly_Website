@@ -1,19 +1,19 @@
 import React from 'react';
-//Componenets
-import HomeAbout from '../components/HomeAbout';
-import Welcome from '../components/Welcome';
-//Animation
+//components
+import GivingSection from '../components/GiveSection';
+import Footer from '../components/Footer';
+//animation
 import { motion } from 'framer-motion';
 import { pageAnimation } from '../animation';
 
-const Home = () => {
+const Give = () =>{
 
     return(
         <motion.div variants={pageAnimation} initial='hidden' animate='show'>
-            <Welcome/>
-            <HomeAbout/>
+            <GivingSection />
+            <Footer />
         </motion.div>
     )
 }
 
-export default Home;
+export default Give;

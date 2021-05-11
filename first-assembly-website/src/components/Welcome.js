@@ -5,7 +5,7 @@ const Welcome = () =>{
 
     return(
         <WelcomeStyled>
-            <h2>Welcome to First Assembly of God</h2>
+            <h2>Welcome to First Assembly of God - New Castle, PA</h2>
             <div className="line"></div>
         </WelcomeStyled>
     )
@@ -27,6 +27,7 @@ const WelcomeStyled = styled.div`
             font-family:'Asap', sans-serif;
             padding: 5rem 14rem;
             color: white;
+            text-align:center;
             font-size: 2.5rem;
         }
 `;
